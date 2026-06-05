@@ -2,6 +2,13 @@
 - this is an archive of our final project. I'm saving this b/c I'm sure our files will be deleted off whatever server it's stored on
 - missing googletest submodule, will have to add that manually for tests to compile/run
 - think i included some generated files that don't need to be there for function, but shouldn't matter that much. just run cmake again on your end
+- most of my screens actually don't show up due to issues in the game driver, and adding them caused things to break.
+
+# Acknowledgements
+- limbus combany blubbering toad background
+- oasis guard (https://ffxiv.eorzeacollection.com/glamour/278319/glammonth-9-oasis-guard)
+- q.u.q for most of the desert backgrounds (love that game's art. go check it out)
+- that sand worm looks like that cuz its from pilgrammed
 
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/rF_RozHa)
 
