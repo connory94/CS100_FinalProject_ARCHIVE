@@ -22,16 +22,16 @@ void Game::introSequence(Player &player){
     player.pickClass(); //has some cout calls of its own
 
     //no class getter? using speed to identify class b/c it's unique between them all.. 
-    if(player.getSpeed() == 10){
+    if(player.getSpeed() == 7){
         screenDisplay.display("../ScreenDisplay/txtfiles/intro.txt", 2, "You picked the Knight! \nEnter anything to embark on your adventure\n", false);
     }
-    else if(player.getSpeed() == 25){
+    else if(player.getSpeed() == 11){
         screenDisplay.display("../ScreenDisplay/txtfiles/intro.txt", 3, "You picked the Assassin! \nEnter anything to embark on your adventure\n", false);
     }
-    else if(player.getSpeed() == 5){
+    else if(player.getSpeed() == 4){
         screenDisplay.display("../ScreenDisplay/txtfiles/intro.txt", 4, "You picked the Tank! \nEnter anything to embark on your adventure\n", false);
     }
-    else if(player.getSpeed() == 15){
+    else if(player.getSpeed() == 10){
         screenDisplay.display("../ScreenDisplay/txtfiles/intro.txt", 5, "You picked the Mage! \nEnter anything to embark on your adventure\n", false);
     }
 
