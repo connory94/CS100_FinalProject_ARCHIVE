@@ -1,0 +1,35 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 3.0)
+
+ADD_EXECUTABLE(BattleLeague
+    main.cpp
+    ../GameDriver/Game.cpp
+    ../Biomes/TremorousCaves.cpp
+    ../Biomes/StarterForest.cpp
+    ../Biomes/KingsLand.cpp
+    ../Biomes/DesertOfDeath.cpp
+    ../Biomes/Pathways.cpp
+    ../Biomes/shop.cpp
+    ../Player/Inventory.cpp
+    ../Player/Player.cpp
+    ../combatCMake/combatSrc/cabinspirit.cpp
+    ../combatCMake/combatSrc/character.cpp
+    ../combatCMake/combatSrc/combat.cpp
+    ../combatCMake/combatSrc/cplayer.cpp
+    ../combatCMake/combatSrc/combatdisplay.cpp
+    ../combatCMake/combatSrc/crygolem.cpp
+    ../combatCMake/combatSrc/darkgobshaman.cpp
+    ../combatCMake/combatSrc/enemy.cpp
+    ../combatCMake/combatSrc/gatekeeper.cpp
+    ../combatCMake/combatSrc/gobgrunt.cpp
+    ../combatCMake/combatSrc/madking.cpp
+    ../combatCMake/combatSrc/oasisguard.cpp
+    ../combatCMake/combatSrc/overbat.cpp
+    ../combatCMake/combatSrc/queenspider.cpp
+    ../combatCMake/combatSrc/sandworm.cpp
+    ../combatCMake/combatSrc/slime.cpp
+    ../combatCMake/combatSrc/sunkwarden.cpp
+    ../combatCMake/combatSrc/villcultist.cpp
+    ../ScreenDisplay/src/Hotbar.cpp
+    ../ScreenDisplay/src/ReadScreenFile.cpp
+    ../ScreenDisplay/src/ScreenDisplay.cpp
+)
