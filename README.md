@@ -1,3 +1,7 @@
+# Important Notes
+- this is an archive of our final project. I'm saving this b/c I'm sure our files will be deleted off whatever server it's stored on
+- missing googletest submodule, will have to add that manually for tests to compile/run
+
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/rF_RozHa)
 
 # Battle League
